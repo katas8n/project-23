@@ -1,3 +1,4 @@
+<!-- git pull ___ (origin) -> get data from remote repo -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,10 +13,129 @@
     <link rel="stylesheet" href="../bootstrap-dist/bootstrap.min.css" />
     <title>Blog</title>
   </head>
+
+  <style>
+    .box1 {
+      background-color: magenta;
+    }
+
+    .box2 {
+      background-color: orchid;
+    }
+  </style>
   <body>
     <div id="app">
-      <header></header>
-      <main></main>
+      <header
+        class="d-flex justify-content-between container-fluid p-3 bg-dark"
+      >
+        <input type="text" placeholder="Searching" />
+
+        <nav class="d-flex w-25 justify-content-between">
+          <a class="text-light text-decoration-none" href="#">Home</a>
+          <a class="text-light text-decoration-none px-2" href="#">About</a>
+          <a class="text-light text-decoration-none" href="#">Login</a>
+        </nav>
+      </header>
+
+      <main class="d-flex flex-column p-5">
+        <!-- <div class="vh-100 col-md-3 col-lg-8">
+          <h1>Lorem Ipsum</h1>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quae distinctio laudantium repudiandae recusandae inventore minus,
+            blanditiis labore similique ullam iure ducimus quaerat!
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quae distinctio laudantium repudiandae recusandae inventore minus,
+            blanditiis labore similique ullam iure ducimus quaerat!
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quae distinctio laudantium repudiandae recusandae inventore minus,
+            blanditiis labore similique ullam iure ducimus quaerat!
+          </p>
+        </div>
+
+        <div class="vh-100 col-md-9 col-lg-4">
+          <div class="wrapper d-flex justify-content-end">
+            <img
+              src="./public/images/tesla.jpeg"
+              alt=""
+              class="pt-5 px-2 w-75"
+            />
+          </div>
+        </div> -->
+        <h1>TEXT</h1>
+        <h1>Hello world</h1>
+        <span class="h1">Hello world</span>
+        <p class="small">Hello world</p>
+        <p class="mark">Hello world</p>
+        <kbd>Hello everyone</kbd>
+        <span class="text-lowercase">Hello</span>
+        <span class="text-uppercase">World</span>
+
+        <br />
+        <h1>IMAGES</h1>
+
+        <img src="./public/images/tesla.jpeg" alt="" class="rounded" />
+
+        <h1>ALERTs</h1>
+        <div class="alert alert-dark">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea
+          porro eos!
+        </div>
+
+        <h1>Buttons</h1>
+
+        <div class="wrapper">
+          <button class="btn btn-secondary">Hello world</button>
+          <button class="btn btn-info">Hello world</button>
+        </div>
+
+        <h1>Card</h1>
+
+        <div class="card">
+          <div class="card-header">Samsung s10</div>
+          <div class="card-body">Total : 2323$</div>
+          <div class="card-footer">sale</div>
+        </div>
+
+        <h1>TABLE</h1>
+
+        <table class="table table-info">
+          <!-- Title / article  -->
+          <thead>
+            <!--  tr = table-row -->
+            <tr>
+              <!-- th - table-head -->
+              <th>#</th>
+              <th>First</th>
+              <th>Last</th>
+              <th>Handle</th>
+            </tr>
+          </thead>
+
+          <!-- Content / info -->
+          <tr>
+            <th>1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+
+          <tr>
+            <th>2</th>
+            <td>John</td>
+            <td>Doe</td>
+            <td>k@mdo</td>
+          </tr>
+        </table>
+      </main>
+
       <footer></footer>
     </div>
   </body>
